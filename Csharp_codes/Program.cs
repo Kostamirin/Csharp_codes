@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 int my_number = 2;
 string my_string = "Hello";
 
