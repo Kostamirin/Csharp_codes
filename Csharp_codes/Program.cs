@@ -37,7 +37,21 @@ namespace CSLight
                 result = Convert.ToSingle(x) / y;
                 Console.WriteLine(result);
             
-                
+            
+            // Some for/foreach stuff
+            int[] values = { 10, 20, 30, 40, 50 };
+            Console.WriteLine("For loop output:");
+            for (int i = 0; i < values.Length; i++)
+            {
+                Console.WriteLine($"Index {i}: {values[i]}");
+            }
+
+            Console.WriteLine("Foreach loop output:");
+            foreach (int value in values)
+            {
+                Console.WriteLine(value);
+            }
+            
             // User input
             string user_name;
             int user_age;
@@ -46,7 +60,7 @@ namespace CSLight
             Console.Write("Enter your age: ");
             user_age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Hello there {user_name}! How is this feel to be {user_age-1} years old?");
-                
+            
             //Console.ReadKey();
         }
     }
