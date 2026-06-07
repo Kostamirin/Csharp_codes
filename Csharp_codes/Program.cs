@@ -31,11 +31,13 @@ namespace CSLight
             Console.WriteLine(test_input);
             Console.WriteLine();
 
-                //! Важно отметить
-                float result;
-                int x=5, y=2;
-                result = Convert.ToSingle(x) / y;
-                Console.WriteLine(result);
+
+            //! Важно отметить
+            float result;
+            int x = 5, y = 2;
+            result = Convert.ToSingle(x) / y;
+            Console.WriteLine(result);
+
 
 
             // Some for/foreach stuff
@@ -59,7 +61,7 @@ namespace CSLight
             user_name = Console.ReadLine();
             Console.Write("Enter your age: ");
             user_age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Hello there {user_name}! How is this feel to be {user_age-1} years old?");
+            Console.WriteLine($"Hello there {user_name}! How is this feel to be {user_age - 1} years old?");
 
             //Console.ReadKey();
         }
