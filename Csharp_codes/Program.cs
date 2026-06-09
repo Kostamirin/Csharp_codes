@@ -48,7 +48,6 @@ namespace CSLight
             Console.WriteLine(result);
 
 
-
             // Some for/foreach stuff
             int[] values = { 10, 20, 30, 40, 50 };
             Console.WriteLine("For loop output:");
@@ -72,8 +71,8 @@ namespace CSLight
             user_age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Hello there {user_name}! How is this feel to be {user_age - 1} years old?");
 
-            int[] arr = { 13, 15, 88, 90, 104 };
-            PrintArray(values);
+            int[] my_array = { 13, 15, 88, 90, 104 };
+            PrintArray(my_array);
 
             //Console.ReadKey();
         }
