@@ -6,6 +6,15 @@ namespace CSLight
 {
     internal class Program
     {
+        static void PrintArray(int[] arr)
+        {
+            foreach (int i in arr)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+        }
+
         static void Main(string[] args)
         {
             Console.InputEncoding = Encoding.UTF8;
@@ -62,6 +71,9 @@ namespace CSLight
             Console.Write("Enter your age: ");
             user_age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Hello there {user_name}! How is this feel to be {user_age - 1} years old?");
+
+            int[] arr = { 13, 15, 88, 90, 104 };
+            PrintArray(values);
 
             //Console.ReadKey();
         }
