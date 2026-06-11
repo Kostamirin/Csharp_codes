@@ -32,14 +32,12 @@ namespace CSLight
             // Конвертация значений
             int test_age = 15;
             string test_input = "15";
-
             test_input = test_input + Convert.ToString(test_age);
             test_age += Convert.ToInt32(test_input);
 
             Console.WriteLine(test_age);
             Console.WriteLine(test_input);
             Console.WriteLine();
-
 
             //! Важно отметить
             float result;
@@ -63,6 +61,7 @@ namespace CSLight
             }
 
             // User input
+
             string user_name;
             int user_age;
             Console.Write("Enter you name, dear user: ");
